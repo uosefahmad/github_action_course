@@ -10,6 +10,14 @@ jobs:
     steps:
       - name: print a welcome message
         run: echo "welcome to our Github actions workflow!"
+      - name: Checkut Repositery
+        uses: actions/checkout@v6.0.2
+      - name: List Repositery files
+        run: ls -la
+        
+        
+        
+     
         
   
       
